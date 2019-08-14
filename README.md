@@ -1,2 +1,2 @@
 # Algorithms
-Understanding Alforithms
+Understanding Algorithms
