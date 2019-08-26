@@ -59,7 +59,7 @@ console.log(
 function binarySearch(searchItem, items) {
   let last = items.length - 1;
   let first = 0;
-  let mid = Math.floor((last - first) / 2);
+  let mid = Math.floor((last - first) / 2); // floor returns the largest integer less than or equal to a given number
 
   while (items[mid] !== searchItem && last > first) {
     if (items[mid] > searchItem) {
@@ -69,7 +69,7 @@ function binarySearch(searchItem, items) {
     }
     mid = Math.floor((last - first) / 2);
   }
-  return items[mid] === searchItem ? mid : 'The item does not exist';
+  return items[mid] === searchItem ? mid : "The item does not exist";
 }
 
 console.log(
