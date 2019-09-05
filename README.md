@@ -90,3 +90,9 @@ Quick sort is based on the divide-and-conquer approach based on the idea of choo
 It removes the use of the auxiliary array that is used in merge sort. Selecting a random pivot in an array results in an improved time complexity in most of the cases.
 
 Time Complexity: _O(n log n)_ - Complexity The worst case time complexity of this algorithm is O(n^2) , but as this is randomized algorithm, its time complexity fluctuates between O(n^2) and O(n log n) and mostly it comes out to be O(n log n).
+
+### References
+https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/tutorial/
+https://www.tutorialspoint.com/data_structures_algorithms/selection_sort_algorithm.htm
+https://docs.cs50.net/2017/fall/notes/3/lecture3.html#sorting
+https://medium.com/@kylejensen
