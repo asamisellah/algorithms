@@ -96,3 +96,4 @@ https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/tutorial/
 https://www.tutorialspoint.com/data_structures_algorithms/selection_sort_algorithm.htm
 https://docs.cs50.net/2017/fall/notes/3/lecture3.html#sorting
 https://medium.com/@kylejensen
+https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/sorting/merge-sort/README.md
