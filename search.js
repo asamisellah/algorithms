@@ -33,33 +33,24 @@ function linearSearch(searchItem, items) {
   return "Item not found";
 }
 
-console.log(
-  linearSearch(3, [3, 2, 5, 4, 6, 10, 11, 100, 3, 9, 7, 8, 15, 16, 17])
-);
+// console.log(
+//   linearSearch(3, [3, 2, 5, 4, 6, 10, 11, 100, 3, 9, 7, 8, 15, 16, 17])
+// );
 
 // Binary Search
 
 // In binary search, we keep halfing the array until we get to the half with the item we are looking for
 // The array has to be sorted
-// We split the array into half a
+// We split the array into half and
 // compare the searchItem with the value at the middle
 // determine which area to discard and the next area to split into half
-
-/**
- * @param {any} items
- * @param {any} searchItem
- * @return {number} index
- *
- * index of the first positiom
- * index of the second position
- * index of the middle position
- *
- */
 
 function binarySearch(searchItem, items) {
   let last = items.length - 1;
   let first = 0;
   let mid = Math.floor((last - first) / 2); // floor returns the largest integer less than or equal to a given number
+
+  console.log(searchItem);
 
   while (items[mid] !== searchItem && last > first) {
     if (items[mid] > searchItem) {
@@ -69,9 +60,8 @@ function binarySearch(searchItem, items) {
     }
     mid = Math.floor((last - first) / 2);
   }
+  console.log(mid);
   return items[mid] === searchItem ? mid : "The item does not exist";
 }
 
-console.log(
-  binarySearch(17, [3, 2, 5, 4, 6, 10, 11, 100, 3, 9, 7, 8, 15, 16, 17])
-);
+console.log(binarySearch(2, [3, 2, 5, 4, 6]));
